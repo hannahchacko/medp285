@@ -1,0 +1,109 @@
+body{
+	background-color: #EEE;
+ 	font-family: "Futura";
+  	font-weight: 400;
+  	font-style: normal;
+  	background-image: url("images/jazz-04.jpg");
+  	min-height: 100vh;
+  	 display: flex;
+  	  flex-direction: column;
+  	  color: white;
+
+}
+
+
+header, nav, main, footer {
+	padding: 22px;
+}
+
+h1{
+	margin: 0px;
+	font-size: 100px;
+	text-align: center;
+	color:#FFC300;
+
+}
+
+h2, h3, h4, h5 {
+
+	margin: 0px;
+	font-size: 30px;
+	text-align: center;
+	color: #FBFFE0
+}
+
+#wrapper {
+	background-color: #646253;
+
+	width: 80%;
+	margin: 0px auto;
+	
+	padding: 20px;
+
+}
+
+nav {
+	ul{
+		list-style-type:none;
+		margin:0;
+		background-color: #DAF7A6;
+		padding: 0px;
+		overflow: hidden;
+
+	}
+	li{
+		float: left;
+	}
+	li a{ 
+		display: block;
+		color: #FBFFE0;
+		padding: 20px 20px;
+		text-decoration: none;
+
+	 }
+	 li a:hover{
+	 	background-color: #FBFFE0;
+	 	color: #DAF7A6;
+	 }
+
+
+}
+
+nav a {
+	color: #581845;
+	text-decoration: none;
+	margin:0px 52px;
+	background-color: #FFC300;
+	padding:140px;
+	
+	text-align: center;
+
+
+
+}
+
+nav a:hover{
+	background-color: #581845;
+	border-width: 1px;
+
+}
+
+article.intro img.introThumb {
+	border: solid 1px #581845;
+	background-color: #666;
+	padding: 5px;
+	margin: 0px;
+
+
+}
+
+article.intro img.introThumb:hover {
+	background-color: #581845;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+
+}
