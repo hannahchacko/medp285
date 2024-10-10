@@ -1,0 +1,128 @@
+body {
+	background-color: #f4f1e0;
+	margin: 0px;
+	padding: 0px;
+  
+	font-family: "Bacasime Antique", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+
+
+}
+
+ .home-page {
+    background-image: url('images/bkgd.png');
+  background-size: cover;  
+}
+
+.history-page {
+    background-image: url('images/hbkgd.png');
+    background-size: 100%;
+
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+header {
+  background-color: #665D1E;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+#wrapper {
+
+ 
+
+	background-color: #1C1B00;
+	width: 80%;
+	margin: 90px auto;
+	color: antiquewhite;
+	padding: 20px;
+
+}
+nav ul {
+  list-style: none;
+  background-color: #665D1E;
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #f4f1e0;
+}
+
+header { 
+
+	font-size:70px;
+ }
+
+img.banner{
+width: 100%;
+height: 20px;
+
+}
+
+article.gallery img{
+	width: 350px;
+	height: 450px;
+/* block stacks images	*/
+	display: block;
+	margin: 10px;
+
+
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #665D1E;
+  padding: 30px;
+  text-align: center;
+}
+
+th {
+  background-color: #665D1E;
+  color: white;
+}
+
+.homepagewords{
+
+	font-size: 45px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="text"], input[type="place"], textarea {
+	margin-top: 20px;
+  width: 40%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 8px solid #665D1E;
+}
+
+
+input[type="submit"]:hover {
+  background-color: #665D1E;
+}
