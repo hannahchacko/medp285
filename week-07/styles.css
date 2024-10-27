@@ -1,0 +1,93 @@
+/* START border-box fix */
+html {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+*, *:before, *:after {
+  box-sizing:inherit;
+}
+/* END border-box fix */
+body{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+h1, h2, h3, h4, h5 {
+ text-transform: uppercase;
+}
+
+
+.container >* {
+  padding: 40px;
+
+}
+
+/*flex contaienr*/
+
+.container {
+  display: flex; 
+  flex-wrap: wrap;
+  max-width: 1000px;
+  
+}
+.row{
+    display: flex;
+    margin: 10px 0;
+}
+
+
+/* FLEX ITEMS */
+header {
+  background: #581845;
+  flex: 1 0 100%; /* grow on, shrink off, basis width of browser */
+  order: 1; /* display order regardless of html structure */
+   color: #DAF7A6;
+   font-size: 30px;
+}
+main {
+  background: #900C3F;
+  flex: 1 1 500px; 
+    /* allow to grow and shrink with remaining space of total 900px, when container is larger than 900, extra space is distributed evenly, when smaller, items will wrap to next line in order to maintain the basis */
+  order: 4;
+   color: #DAF7A6;
+}
+nav {
+  background: #FF5733;
+  flex: 1 0 200px; /* grow but do not shrink less than basis */
+  order: 3;
+   color: #DAF7A6;
+}
+aside {
+  background: #C70039 ;
+  flex: 1 0 200px; /* grow but do not shrink less than basis */
+  order: 5;
+   color: #DAF7A6;
+
+}
+footer {
+  background: #DAF7A6 ;
+  color: #581845;
+  flex: 1 0 100%; /* grow on, shrink off, basis width of browser */
+  order: 6;
+}
+
+.section{
+background: #DAF7A6 ;
+  color: #581845;
+  flex: 1 0 100%; /* grow on, shrink off, basis width of browser */
+  order: 2;
+}
+
+
+img{
+  margin: 15px; 
+    width: 100px;
+    height: 100px;
+}
